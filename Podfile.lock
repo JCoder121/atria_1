@@ -1,0 +1,55 @@
+PODS:
+  - ALCameraViewController (3.1)
+  - ESTabBarController-swift (2.8.0)
+  - expanding-collection (3.1.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - pop (1.0.12)
+  - Presentr (1.9)
+  - Segmentio (4.1)
+  - ViewAnimator (2.7.0)
+  - XLActionController (5.0.2):
+    - XLActionController/Core (= 5.0.2)
+  - XLActionController/Core (5.0.2)
+  - XLActionController/Skype (5.0.2):
+    - XLActionController/Core
+
+DEPENDENCIES:
+  - ALCameraViewController
+  - ESTabBarController-swift
+  - expanding-collection
+  - NVActivityIndicatorView
+  - pop (~> 1.0)
+  - Presentr
+  - Segmentio
+  - ViewAnimator
+  - XLActionController
+  - XLActionController/Skype
+
+SPEC REPOS:
+  trunk:
+    - ALCameraViewController
+    - ESTabBarController-swift
+    - expanding-collection
+    - NVActivityIndicatorView
+    - pop
+    - Presentr
+    - Segmentio
+    - ViewAnimator
+    - XLActionController
+
+SPEC CHECKSUMS:
+  ALCameraViewController: 144dea45fd749a623aafd8cb7b10cea88499fcc3
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  expanding-collection: 7eb1fc48c6ec5e00c8887fe46c595c31b81b578a
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+  Segmentio: ab29def64e1bff6e6e9b97671788a99bed3f1d9f
+  ViewAnimator: 5af1c6f3b310f012bf081259c43717aa54fbae73
+  XLActionController: f1f2226d2c6629db197d4a41f2da907085a4cb9d
+
+PODFILE CHECKSUM: 602a0ceb19ee3e9fe3acfcd1917a3590011baaec
+
+COCOAPODS: 1.8.4
