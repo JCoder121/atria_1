@@ -7,14 +7,28 @@
 //
 
 import UIKit
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var window: UIWindow?
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        //wow edits woohoo
+        let timeline = TimelineViewController()
+        let navigation = UINavigationController(rootViewController: timeline)
+
+        let frame = UIScreen.main.bounds
+        window = UIWindow(frame: frame)
+
+        window!.rootViewController = navigation
+        window!.makeKeyAndVisible()
+
+        return true
+        
         return true
     }
 

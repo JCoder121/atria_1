@@ -3,18 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0078B44C2435408200550EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078B44B2435408200550EB0 /* AppDelegate.swift */; };
 		0078B44E2435408200550EB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078B44D2435408200550EB0 /* SceneDelegate.swift */; };
 		0078B4502435408200550EB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078B44F2435408200550EB0 /* ViewController.swift */; };
-		0078B4532435408200550EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0078B4512435408200550EB0 /* Main.storyboard */; };
 		0078B4552435408600550EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0078B4542435408600550EB0 /* Assets.xcassets */; };
 		0078B4582435408600550EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0078B4562435408600550EB0 /* LaunchScreen.storyboard */; };
 		0078B4632435408600550EB0 /* atria_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078B4622435408600550EB0 /* atria_1Tests.swift */; };
 		0078B46E2435408600550EB0 /* atria_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078B46D2435408600550EB0 /* atria_1UITests.swift */; };
+		0AD2A1B23E18E24A0C9D1076 /* Pods_atria_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406B641CC2A4B8848DB659DB /* Pods_atria_1Tests.framework */; };
+		8570AEF7927910F01C772E42 /* Pods_atria_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD57CEEC4FC1316EE34AAFF /* Pods_atria_1.framework */; };
+		F8B4CE63BAA0130AAC813A87 /* Pods_atria_1_atria_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99DB2500392132C306D69348 /* Pods_atria_1_atria_1UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		0078B44B2435408200550EB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0078B44D2435408200550EB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0078B44F2435408200550EB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0078B4522435408200550EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0078B4542435408600550EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0078B4572435408600550EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0078B4592435408600550EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,15 @@
 		0078B4692435408600550EB0 /* atria_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atria_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0078B46D2435408600550EB0 /* atria_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atria_1UITests.swift; sourceTree = "<group>"; };
 		0078B46F2435408600550EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB27911692150C471A3E278 /* Pods-atria_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atria_1.release.xcconfig"; path = "Target Support Files/Pods-atria_1/Pods-atria_1.release.xcconfig"; sourceTree = "<group>"; };
+		3FD57CEEC4FC1316EE34AAFF /* Pods_atria_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_atria_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		406B641CC2A4B8848DB659DB /* Pods_atria_1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_atria_1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8265D48DF988026D1DEB3245 /* Pods-atria_1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atria_1Tests.debug.xcconfig"; path = "Target Support Files/Pods-atria_1Tests/Pods-atria_1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		99DB2500392132C306D69348 /* Pods_atria_1_atria_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_atria_1_atria_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70BC5BBB300374AE714C813 /* Pods-atria_1-atria_1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atria_1-atria_1UITests.debug.xcconfig"; path = "Target Support Files/Pods-atria_1-atria_1UITests/Pods-atria_1-atria_1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA14F468F7CF6DBB98B62FC7 /* Pods-atria_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atria_1.debug.xcconfig"; path = "Target Support Files/Pods-atria_1/Pods-atria_1.debug.xcconfig"; sourceTree = "<group>"; };
+		C5F1F3ECE7B0AD2F0D968477 /* Pods-atria_1-atria_1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atria_1-atria_1UITests.release.xcconfig"; path = "Target Support Files/Pods-atria_1-atria_1UITests/Pods-atria_1-atria_1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA5129E89E6B4BC42652F1E3 /* Pods-atria_1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atria_1Tests.release.xcconfig"; path = "Target Support Files/Pods-atria_1Tests/Pods-atria_1Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8570AEF7927910F01C772E42 /* Pods_atria_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD2A1B23E18E24A0C9D1076 /* Pods_atria_1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B4CE63BAA0130AAC813A87 /* Pods_atria_1_atria_1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,8 @@
 				0078B4612435408600550EB0 /* atria_1Tests */,
 				0078B46C2435408600550EB0 /* atria_1UITests */,
 				0078B4492435408200550EB0 /* Products */,
+				CE9D43038145C51BFDE1CB0E /* Pods */,
+				BF9C001092C73D17C86B9462 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +117,6 @@
 				0078B44B2435408200550EB0 /* AppDelegate.swift */,
 				0078B44D2435408200550EB0 /* SceneDelegate.swift */,
 				0078B44F2435408200550EB0 /* ViewController.swift */,
-				0078B4512435408200550EB0 /* Main.storyboard */,
 				0078B4542435408600550EB0 /* Assets.xcassets */,
 				0078B4562435408600550EB0 /* LaunchScreen.storyboard */,
 				0078B4592435408600550EB0 /* Info.plist */,
@@ -128,6 +142,29 @@
 			path = atria_1UITests;
 			sourceTree = "<group>";
 		};
+		BF9C001092C73D17C86B9462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FD57CEEC4FC1316EE34AAFF /* Pods_atria_1.framework */,
+				99DB2500392132C306D69348 /* Pods_atria_1_atria_1UITests.framework */,
+				406B641CC2A4B8848DB659DB /* Pods_atria_1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE9D43038145C51BFDE1CB0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA14F468F7CF6DBB98B62FC7 /* Pods-atria_1.debug.xcconfig */,
+				2CB27911692150C471A3E278 /* Pods-atria_1.release.xcconfig */,
+				A70BC5BBB300374AE714C813 /* Pods-atria_1-atria_1UITests.debug.xcconfig */,
+				C5F1F3ECE7B0AD2F0D968477 /* Pods-atria_1-atria_1UITests.release.xcconfig */,
+				8265D48DF988026D1DEB3245 /* Pods-atria_1Tests.debug.xcconfig */,
+				CA5129E89E6B4BC42652F1E3 /* Pods-atria_1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0078B4722435408600550EB0 /* Build configuration list for PBXNativeTarget "atria_1" */;
 			buildPhases = (
+				A0E582927E9A65DFC5D82DFB /* [CP] Check Pods Manifest.lock */,
 				0078B4442435408200550EB0 /* Sources */,
 				0078B4452435408200550EB0 /* Frameworks */,
 				0078B4462435408200550EB0 /* Resources */,
+				A39A050BFED18A56E8DDAA47 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0078B4752435408600550EB0 /* Build configuration list for PBXNativeTarget "atria_1Tests" */;
 			buildPhases = (
+				05EADB76126BD3DF9C56F58C /* [CP] Check Pods Manifest.lock */,
 				0078B45A2435408600550EB0 /* Sources */,
 				0078B45B2435408600550EB0 /* Frameworks */,
 				0078B45C2435408600550EB0 /* Resources */,
@@ -170,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0078B4782435408600550EB0 /* Build configuration list for PBXNativeTarget "atria_1UITests" */;
 			buildPhases = (
+				7AD4B47F9CBA843CA55CA3DA /* [CP] Check Pods Manifest.lock */,
 				0078B4652435408600550EB0 /* Sources */,
 				0078B4662435408600550EB0 /* Frameworks */,
 				0078B4672435408600550EB0 /* Resources */,
+				85FBB9FDC57B1CFDFA86C36A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +276,6 @@
 			files = (
 				0078B4582435408600550EB0 /* LaunchScreen.storyboard in Resources */,
 				0078B4552435408600550EB0 /* Assets.xcassets in Resources */,
-				0078B4532435408200550EB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +294,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05EADB76126BD3DF9C56F58C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-atria_1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD4B47F9CBA843CA55CA3DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-atria_1-atria_1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FBB9FDC57B1CFDFA86C36A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-atria_1-atria_1UITests/Pods-atria_1-atria_1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-atria_1-atria_1UITests/Pods-atria_1-atria_1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-atria_1-atria_1UITests/Pods-atria_1-atria_1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0E582927E9A65DFC5D82DFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-atria_1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A39A050BFED18A56E8DDAA47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-atria_1/Pods-atria_1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-atria_1/Pods-atria_1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-atria_1/Pods-atria_1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0078B4442435408200550EB0 /* Sources */ = {
@@ -297,14 +441,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0078B4512435408200550EB0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0078B4522435408200550EB0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0078B4562435408600550EB0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +568,7 @@
 		};
 		0078B4732435408600550EB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA14F468F7CF6DBB98B62FC7 /* Pods-atria_1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +587,7 @@
 		};
 		0078B4742435408600550EB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB27911692150C471A3E278 /* Pods-atria_1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +606,7 @@
 		};
 		0078B4762435408600550EB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8265D48DF988026D1DEB3245 /* Pods-atria_1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +629,7 @@
 		};
 		0078B4772435408600550EB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5129E89E6B4BC42652F1E3 /* Pods-atria_1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +652,7 @@
 		};
 		0078B4792435408600550EB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70BC5BBB300374AE714C813 /* Pods-atria_1-atria_1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +673,7 @@
 		};
 		0078B47A2435408600550EB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F1F3ECE7B0AD2F0D968477 /* Pods-atria_1-atria_1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
